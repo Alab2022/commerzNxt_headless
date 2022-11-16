@@ -50,6 +50,9 @@ button {
 .bg-gray{
     background-color: #F9F9F9;
 }
+ul{
+    list-style: none;
+}
 /* Navbar css starts here///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 nav.navbar.navbar-expand-sm {
@@ -371,7 +374,7 @@ width: 100%;
     height: 100% !important;
   }
   h4.card-heading {
-    font-size: 18px;
+    font-size: 20px;
     color: #575757;
 }
 p.common-pr{
@@ -407,7 +410,7 @@ p.common-pr{
 .wrap .icon {
     width: 55px;
     height: 55px;
-    background: #F5F5F5;
+    background: #e4e4e4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -529,3 +532,172 @@ img.fot-lo {
     color: #fff;
 }
 /* Footer css ends here///////////////////////////////////////////////////////////////////////////////////////////////////////////  */
+
+/* Shop section css starts here////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.shop img {
+    width: 100%;
+}
+.card-heading h4{
+font-size: 18px;
+color: #575757;
+}
+.option-wraper ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.option-wraper ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+.list{
+    border-radius: 20px !important; 
+    border: 0 !important;
+    padding: 25px !important;
+    box-shadow: rgba(58, 58, 58, 0.1) 0px 4px 12px !important;
+}
+.custom-pdd{
+    padding-right: 30px !important;
+}
+.list-header .left, .right {
+    width: unset;
+}
+ol.breadcrumb {
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #303030;
+}
+li.breadcrumb-item.active {
+    color: #f05a28;
+}
+h4.list-heading {
+    color: #575757;
+}
+.list-header .right button.btn.btn-light {
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #E1E1E1 !important;
+}
+.pagination p {
+    font-size: 14px;
+    color: #707070;
+}
+.pagination button.btn.btn-light {
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #E1E1E1 !important;
+    color: #0F75B7;
+    font-weight: 500;
+}
+.inner{
+    margin-bottom: 20px;
+}
+.banner-section {
+    position: relative;
+}
+.banner-section .content {
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+.banner-section .content h1,p{
+    color: #0F75B7;
+}
+.banner-section .content p{
+    font-size: 14px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: unset !important;
+}
+
+/* Shop section css ends here////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Details page css starts here/////////////////////////////////////////////////////////////////////////////////// */
+
+.item-display-options ul {
+    padding: 0;
+    padding-right: 30px;
+}
+.item-display-options ul li {
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.li-img-wrpper {
+    width: 90px;
+
+}
+.li-img-wrpper img {
+    width: 100%;
+}
+.pdt-display {
+    width: 100%;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+}
+.pdt-display img {
+    width: 100%;
+}
+.pdt-detail-wrapper h5 {
+    width: 60%;
+}
+span.cm-light {
+    font-size: 12px;
+    margin-left: 20px;
+    color: #9F9F9F;
+}
+.brand p {
+    font-size: 14px;
+    color: #303030;
+    margin-right: 20px !important;
+}
+.status-success {
+    padding: 5px 10px;
+    background: #4DD47E;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 12px;
+    border: 1px solid #46BC71;
+}
+.price h1 {
+    color: #303030;
+    font-weight: 700;
+    font-size: 30px;
+}
+h1.st-out {
+    font-weight: 300;
+    color: #b4b4b4;
+}
+.detail-btn-wrp button {
+    padding: 12px 17px;
+    margin-right: 10px;
+}
+.detail-btn-wrp button.btn.btn-light {
+    background: #fff;
+    border: 1px solid #E1E1E1 !important;
+    color: #707070;
+}
+.description h6 {
+    color: #303030;
+    margin-bottom: 10px !IMPORTANT;
+}
+.description p {
+    color: #303030;
+    margin-bottom: 10px !IMPORTANT;
+    font-size: 14px;
+    width: 80%;
+}
+/* Details page css ends here/////////////////////////////////////////////////////////////////////////////////// */
