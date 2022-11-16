@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700&family=Nunito+Sans:wght@200;300;400;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    font-family: 'Poppins', sans-serif !important; 
+}
+.align-center{
+    align-items: center;
+}
+p,h1,h2,h3,h4,h5,h6,a{
+    margin-bottom: 0 !important;
+}
+.container-fluid {
+    padding: 0 !important;   
+}
+.site-wrapper{
+    padding: 15px 80px;
+    padding-bottom: 40px;
+}
+.header{
+    padding: 15px 80px;
+}
+a{
+    text-decoration: none !important;
+}
+.btn-primary{
+    background: #F05A28 !important;
+    color: #fff;
+}
+.btn-secondary{
+    background: #1C67A8 !important;
+    color: #fff;
+}
+.primary-text{
+    color: #F05A28 !important;
+}
+.secondary-text{
+    color: #1C67A8 !important;
+}
+button {
+    font-size: 14px !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.bg-gray{
+    background-color: #F9F9F9;
+}
+/* Navbar css starts here///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+nav.navbar.navbar-expand-sm {
+    padding: 0;
+}
+a.navbar-brand {
+    width: 250px;
+    margin-right: 35px;
+}
+a.navbar-brand img {
+    width: 100%;
+    height: 100%;
+}
+.dropdown button p {
+    font-size: 11px;
+    color: #707070;
+    font-weight: 400;
+    text-align: left;
+}
+.dropdown button {
+    font-size: 14px;
+    text-align: left;
+    color: #707070;
+    font-weight: 500;
+    padding: 0 !important;
+    border: 0;
+    outline: 0;
+}
+div#collapsibleNavbar {
+    width: 100%;
+}
+.content-divider {
+    width: 100%;
+}
+.search-bar {
+    width: 100%;
+}
+.search-bar input {
+    width: 100%;
+    background: #F1F1F1;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    padding: 7px 15px;
+    font-size: 14px;
+    outline: 0;
+}
+.icon-wrapper {
+    background: #F1F1F1;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+    color: #7B7B7B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notification {
+    position: absolute;
+    top: -5px;
+    right: -6px;
+    background: #F05A28;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    font-size: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul.dropdown-menu li button {
+   font-weight: 400;
+   color: #707070;
+   padding: 5px 10px !important;
+}
+a.nav-link {
+    padding: 0 !important;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.nav-sep {
+    margin-right: 10px;
+    color: #BBBBBB;
+    font-size: 14px;
+    font-weight: 400;
+}
+.content-right h6 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #686868;
+}
+
+/* Navbar css ends here///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Banner Carousel Css starts here//////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.carousel-item {
+    position: relative;
+}
+.cr-content {
+    position: absolute;
+    top: 15%;
+    width: 390px;
+    left: 11%;
+}
+.cr-content h1 {
+    font-size: 42px;
+    color: #fff;
+}
+.cr-content p {
+    font-size: 14px;
+    margin: 15px 0px !important;
+    color: #fff;
+    font-weight: 300;
+}
+/* Banner Carousel Css Ends here//////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+/* Slider Css Css Starts here//////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.card{
+    padding: 15px;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+    border: 1px solid #E2E2E2 !important;
+}
+.owl-carousel .owl-stage-outer{
+    overflow: unset;
+    height: 100%;
+}
+.list-img-wrapper {
+    width: 110px;
+    margin: auto;
+    height: 150px;
+    display: flex;
+    overflow: hidden;
+}
+.list-img-wrapper img {
+    width: 100% !important;
+    margin: auto;
+    
+}
+.list-details h4 {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px !important;
+    font-weight: 400;
+}
+.list-footer {
+    flex-wrap: wrap;
+    width: 100%;
+}
+.list-footer .price-wrapper .content h5 strike {
+    font-size: 12px;
+    margin-right: 8px;
+    font-weight: 200;
+}
+.list-footer .price-wrapper .content h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+.ic-active{
+    color: #1C67A8 !important;
+}
+.ratings i.bi {
+    color: #DBDBDB;
+}
+.wishlist {
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    padding-top: 4px;
+    font-size: 14px;
+    line-height: 25px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    border-radius: 50%;
+    text-align: center;
+    color: #F05A28;
+    position: absolute;
+    right: 13px;
+    top: 16px;
+    display: none;
+}
+.card:hover .wishlist{
+    display: block;
+}
+h4.inner-heading {
+    border-left: 2px solid #F05A28;
+    padding-left: 13px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.inner-header {
+    width: 90%;
+}
+.owl-theme .owl-nav [class*=owl-]{
+    font-size: 28px !important;
+}
+.owl-nav button span {
+    background: white;
+    padding: 0px 14px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+.owl-nav {
+    position: absolute;
+    top: -64px;
+    margin-top: unset !important;
+    z-index: 999;
+    right: -3px;
+}
+.owl-dots{
+    display: none;
+}
+.inner-header a {
+    font-size: 14px;
+    color: #1C67A8;
+}
+/* Slider Css Css Ends here//////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Home page Gradient banner css starts here//////////////////////////////////////////////////////////////////////////////////////////// */
+
+.img-gradient{
+    position:relative;
+    display:inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+  }
+  .img-gradient img{
+width: 100%;
+  }
+  .img-gradient:after {
+    content:'';
+    position:absolute;
+    left:0; top:0;
+    width:100%; height:100%;
+    display:inline-block;
+    background: -moz-linear-gradient(top, rgba(0,47,75,0) 0%, #F05A28 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F05A28), color-stop(100%,rgba(0,47,75,0.5))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0,47,75,0) 0%,#F05A28 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0,47,75,0) 0%,#F05A28 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(0,47,75,0) 0%,#F05A28 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%,#F05A28 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+  }
+  .img-gradient img{
+    display:block;
+  }
+  .badge_onsale{
+    width: 116px;
+    height: 77px;
+    background-color: #F05A28;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 77px;
+    color: #fff;
+    right: 30px;
+    z-index: 5;
+  }
+  .hot_title{
+    position: absolute;
+    bottom: 40px;
+    z-index: 5;
+    color: #fff;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  .hot_title h1{
+    font-size: 26px;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+  }
+  .hot_title h2{
+    font-size: 14px;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+  }
+  .btn_proceed {
+    width: 50px!important;
+    height: 45px!important;
+    border-radius: 10px;
+    background: #fff!important;
+    color: #1C67A8;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+    transition: 0.5s;
+  }
+  .hotdeals{
+    position: relative;
+  }
+
+  /* Home page Gradient banner css ends here//////////////////////////////////////////////////////////////////////////////////////////// */
+ 
+ /* Home page inner css starts here ////////////////////////////////////////////////////////////////////////*/
+
+ .custom{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+    border: 0  !important;
+    padding: 20px;
+  }
+  .no-js .owl-carousel, .owl-carousel.owl-loaded{
+    height: 100% !important;
+  }
+  h4.card-heading {
+    font-size: 18px;
+    color: #575757;
+}
+p.common-pr{
+    font-size: 14px;
+    color: #575757;
+    font-weight: 300;
+}
+.cr-pdt-grid .img-wrap {
+    width: 120px;
+    height: 123px;
+    margin: auto;
+}
+.cr-pdt-grid .pdt-wrp {
+    width: 50%;
+}
+.list-view .list-img-wrapper {
+    margin: unset;
+    margin-right: 20px;
+    width: 30%;
+    height: 100px;
+}
+.list-view .list-img-wrapper img {
+    width: 100%;
+    height: 100%;
+}
+.list-view .list-details {
+    width: 65%;
+}
+.list-view .list-details h4 {
+    font-size: 20px;
+    margin: 0 !IMPORTANT;
+}
+.wrap .icon {
+    width: 55px;
+    height: 55px;
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.wrap .icon i {
+    font-size: 24px;
+    color: #F05A28;
+}
+.wrap h4 {
+    font-size: 20px;
+    color: #575757;
+}
+.wrap p {
+    font-size: 14px;
+    color: #575757;
+    font-weight: 300;
+}
+/* Home page inner css ends here ////////////////////////////////////////////////////////////////////////*/
+
+
+/* Footer css starts here///////////////////////////////////////////////////////////////////////////////////////////////////////////  */
+.footer {
+    padding: 30px 0px;
+}
+.footer-top .left,.right {
+    width: 60%;
+}
+.footer-top .right {
+    width: 40%;
+}
+.footer-top .left h1 {
+    font-size: 28px;
+    color: #7A7A7A;
+    margin-bottom: 5px !important;
+}
+.footer-top .left p {
+    color: #5F5F5F;
+    font-weight: 300;
+    width: 70%;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.footer-top .right .subscription input {
+    width: 100%;
+    border: 1px solid #cbcbcb;
+    padding: 15px;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.subscription {
+    position: relative;
+}
+.subscription button.btn.btn-secondary{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 16px 20px;
+    border-radius: 20px;
+}
+.footer-top{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+.ft-l p {
+    width: 70%;
+    color: #5F5F5F;
+    margin: 25px 0 !important;
+    font-size: 14px;
+}
+.ic-wr {
+    border: 1px solid #EEEEEE;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #fff;
+}
+.ic-wr i{
+    color: #F05A28;
+    font-size: 20px;
+}
+.footer-btm h3 {
+    font-size: 20px;
+    color: #7A7A7A;
+    margin-bottom: 25px !important;
+}
+.footer-btm ul {
+    font-size: 14px;
+    list-style: none;
+    color: #5F5F5F;
+    font-weight: 300;
+}
+.footer-btm ul li{
+    margin-bottom: 7px;
+}
+.payment img {
+    width: 140px;
+    margin-right: 10px;
+}
+.copyright a {
+    font-size: 14px;
+    color: #686868;
+}
+/* Footer css ends here///////////////////////////////////////////////////////////////////////////////////////////////////////////  */
