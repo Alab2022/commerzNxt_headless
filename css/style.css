@@ -430,6 +430,11 @@ p.common-pr{
 
 
 /* Footer css starts here///////////////////////////////////////////////////////////////////////////////////////////////////////////  */
+
+
+.bg-semi-light{
+    background-color: #747474;
+}
 .footer {
     padding: 30px 0px;
 }
@@ -441,11 +446,11 @@ p.common-pr{
 }
 .footer-top .left h1 {
     font-size: 28px;
-    color: #7A7A7A;
+    color: #ffffff;
     margin-bottom: 5px !important;
 }
 .footer-top .left p {
-    color: #5F5F5F;
+    color: #efefef;
     font-weight: 300;
     width: 70%;
     font-size: 14px;
@@ -468,7 +473,7 @@ p.common-pr{
     right: 0;
     top: 0;
     padding: 16px 20px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .footer-top{
     border-bottom: 1px solid #ddd;
@@ -477,7 +482,7 @@ p.common-pr{
 }
 .ft-l p {
     width: 70%;
-    color: #5F5F5F;
+    color: #efefef;
     margin: 25px 0 !important;
     font-size: 14px;
 }
@@ -497,13 +502,13 @@ p.common-pr{
 }
 .footer-btm h3 {
     font-size: 20px;
-    color: #7A7A7A;
+    color: #ffffff;
     margin-bottom: 25px !important;
 }
 .footer-btm ul {
     font-size: 14px;
     list-style: none;
-    color: #5F5F5F;
+    color: #efefef;
     font-weight: 300;
 }
 .footer-btm ul li{
@@ -516,5 +521,11 @@ p.common-pr{
 .copyright a {
     font-size: 14px;
     color: #686868;
+}
+img.fot-lo {
+    width: 55%;
+}
+.ft-l a {
+    color: #fff;
 }
 /* Footer css ends here///////////////////////////////////////////////////////////////////////////////////////////////////////////  */
