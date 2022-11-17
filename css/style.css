@@ -27,6 +27,7 @@ p,h1,h2,h3,h4,h5,h6,a{
 }
 .header{
     padding: 8px 80px;
+    box-shadow: -5px 15px 13px -21px #aeaeae;
 }
 a{
     text-decoration: none !important;
@@ -131,12 +132,13 @@ div#collapsibleNavbar {
 ul.dropdown-menu li button {
    font-weight: 400;
    color: #707070;
-   padding: 5px 10px !important;
+   padding: 8px 13px !important;
 }
 a.nav-link {
     padding: 0 !important;
     font-size: 12px;
     margin-right: 10px;
+    color: #707070 !important;
 }
 .nav-sep {
     margin-right: 10px;
@@ -148,6 +150,20 @@ a.nav-link {
     font-size: 13px;
     font-weight: 300;
     color: #686868;
+}
+.nav-sec-top a.dropdown-item i {
+    margin-right: 10px;
+}
+.nav-sec-top a.dropdown-item:hover{
+    color: #F05A28 !important;
+}
+a.dropdown-item {
+    font-size: 14px;
+    padding-bottom: 10px;
+    color: #686868 !important;
+}
+.dropdown-item.active, .dropdown-item:active{
+    background: unset !important;
 }
 
 /* Navbar css ends here///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -172,6 +188,21 @@ a.nav-link {
     margin: 15px 0px !important;
     color: #fff;
     font-weight: 300;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background: none !important;
+    color: #1C67A8 !important;
+}
+.owl-carousel .owl-stage-outer {
+    padding: 10px;
+    margin-left: -15px;
+}
+.owl-carousel {
+
+    width: 101.7%!important;
+    padding: 10px;
+
 }
 /* Banner Carousel Css Ends here//////////////////////////////////////////////////////////////////////////////////////////////////// */
 
@@ -535,7 +566,7 @@ img.fot-lo {
     width: 55%;
 }
 .ft-l a {
-    color: #fff;
+    color: #efefef !important;
 }
 /* Footer css ends here///////////////////////////////////////////////////////////////////////////////////////////////////////////  */
 
@@ -609,12 +640,13 @@ h4.list-heading {
     top: 50px;
     left: 80px;
 }
-.banner-section .content h1,p{
+.banner-section .content h1{
     color: #0F75B7;
 }
 .banner-section .content p{
     font-size: 14px;
     margin-top: 10px;
+    color: #0F75B7;
 }
 a{
     text-decoration: none;
@@ -706,29 +738,257 @@ h1.st-out {
     font-size: 14px;
     width: 80%;
 }
-.owl-theme .owl-nav [class*=owl-]:hover{
-    background: none !important;
-    color: #1C67A8 !important;
-}
+
 /* Details page css ends here/////////////////////////////////////////////////////////////////////////////////// */
 
-/* Responsive css starts here////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Login and starter css starts here////////////////////////////////////////////////////////////////////////////////////////////// */
 
-@media only screen and (max-width: 600px) {
-    .header{
-        padding: 10px;
-    }
-  }
-
-/* Responsive css ends here////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-
-.owl-carousel .owl-stage-outer {
-    padding: 10px;
-    margin-left: -15px;
+.login{
+    width: 30%;
+    margin: auto;
+    padding: 30px;
 }
-.owl-carousel {
-
-    width: 101.7%!important;
+.form-group{
+    position: relative;
+}
+.login-header h1 {
+    font-size: 26px;
+    color: #434343;
+}
+.login-header p {
+    font-size: 14px;
+    color: #707070;
+}
+label {
+    font-size: 14px;
+    color: #707070;
+    font-weight: 400;
+}
+.login a {
+    font-size: 14px;
+    color: #1C67A8 !important;
+}
+.login-footer p {
+    font-size: 14px;
+    text-align: center;
+    color: #707070;
+}
+.login-custom a.btn.btn-primary {
+    color: #fff !important;
+    border: none;
+}
+.input-icon {
+    position: absolute;
+    top: 33px;
+    right: 20px;
+}
+.input-icon:hover {
+    color: #1C67A8;
+}
+.login-footer a{
+    color: #1C67A8 !important; 
+}
+.form-group input {
+    font-size: 13px;
+    box-shadow: none !important;
+    outline: none;
     padding: 10px;
+}
+.createacount{
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+}
+span.error-msg {
+    font-size: 12px;
+    position: absolute;
+    font-style: italic;
+    color: #f02323;
+}
+.starter-pd{
+    padding: 40px !important;
+}
+/* Login and starter css ends here////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Wishlist css starts here ////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.container-fluid.grey {
+    background: #EFEFEF;
+    margin-top: -30px;
+    padding: 30px;
+}
+
+.name span {
+    font-size: 16px;
+    opacity: 75%;
+}
+
+.name p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.name {
+    margin-left: 10px;
+}
+
+.profile-sec.details {
+    flex-direction: column;
+    align-items: unset;
+    margin-top: 20px;
+}
+
+.profile-sec.details h4 a {
+    color: #707070;
+    font-weight: 500;
+}
+
+.profile-sec.details ul li a {
+    color: #707070;
+    display: block;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.profile-sec.details ul li a:hover {
+
+    color: #891c05;
+    font-weight: 600;
+    transition: 0.4s ease;
+    opacity: 100% !important;
 
 }
+
+.profile-sec.details ul li {
+    color: #000;
+    padding: 5px 0;
+}
+
+.profile-sec.details h4 {
+    margin: 15px 0;
+    display: flex;
+}
+
+.profile-sec.details h4 a {
+    text-decoration: none;
+    margin-top: 2px;
+}
+
+.profile-sec.details i.fa.fa-angle-right {
+    float: right;
+    opacity: 70%;
+}
+
+.profile-sec.details h4 span img {
+    margin-right: 10px;
+}
+
+.grid-right {
+    align-items: center;
+}
+
+.grid-right .form-check label.form-check-label {
+    margin-right: 10px;
+    opacity: 70%;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.grid-right .form-check {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.grid-right .form-check input#check1 {
+    margin-right: 5px;
+}
+
+
+.wishlist-content h3 {
+    font-size: 20px;
+    margin-top: 8px;
+    font-weight: 400;
+    color: #891c05;
+}
+
+.wishlist-content h3 strike {
+    color: #000;
+    font-size: 16px;
+    font-weight: 300;
+    opacity: 65%;
+    font-style: italic;
+}
+
+.wishlist-content .star {
+    background: #53D34B;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 3px;
+    opacity: 100%;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+span.added {
+    font-size: 13px;
+    opacity: 70%;
+    margin-left: 20px;
+}
+
+.wishlist-content .usages {
+    justify-content: unset;
+}
+
+.wishlist-content .usages a {
+    margin-right: 18px;
+}
+
+.buttons.wishlist-1 button.btn.btn-primary {
+    background-color: #FFBEBE;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: #000;
+    width: -webkit-fill-available;
+    margin-top: 10px;
+}
+
+button.btn.btn-danger {
+    background: #891c05;
+}
+
+.buttons.wishlist-1 button.btn.btn-danger {
+
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: -webkit-fill-available;
+    margin-top: 10px;
+}
+
+.row.fo-align {
+    display: flex;
+    align-items: center;
+}
+
+.wishlist {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.fo-bg-white {
+    background: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: rgb(50 50 93 / 15%) 0px 6px 12px -2px, rgb(0 0 0 / 10%) 0px 3px 7px -3px;
+}
+
+.inner-page-pd{
+    padding-top: 25px !important;
+}
+
+
+
