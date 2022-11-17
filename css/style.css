@@ -709,8 +709,8 @@ h1.st-out {
 /* Responsive css starts here////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
+    .header{
+        padding: 10px;
     }
   }
 
