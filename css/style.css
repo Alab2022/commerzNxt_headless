@@ -22,7 +22,7 @@ p,h1,h2,h3,h4,h5,h6,a{
     padding-bottom: 40px;
 }
 .header{
-    padding: 15px 80px;
+    padding: 8px 80px;
 }
 a{
     text-decoration: none !important;
@@ -131,7 +131,7 @@ ul.dropdown-menu li button {
 }
 a.nav-link {
     padding: 0 !important;
-    font-size: 14px;
+    font-size: 12px;
     margin-right: 10px;
 }
 .nav-sep {
@@ -141,7 +141,7 @@ a.nav-link {
     font-weight: 400;
 }
 .content-right h6 {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 300;
     color: #686868;
 }
@@ -177,8 +177,9 @@ a.nav-link {
 .card{
     padding: 15px;
     border-radius: 10px !important;
-    box-shadow: none !important;
-    border: 1px solid #E2E2E2 !important;
+    /* box-shadow: none !important; */
+    border: 1px solid #e8e8e8 !important;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
 }
 .owl-carousel .owl-stage-outer{
     overflow: unset;
@@ -247,7 +248,7 @@ h4.inner-heading {
     font-weight: 400;
 }
 .inner-header {
-    width: 90%;
+    width: 86%;
 }
 .owl-theme .owl-nav [class*=owl-]{
     font-size: 28px !important;
@@ -260,10 +261,10 @@ h4.inner-heading {
 }
 .owl-nav {
     position: absolute;
-    top: -64px;
+    top: -42px;
     margin-top: unset !important;
     z-index: 999;
-    right: -3px;
+    right: 10px;
 }
 .owl-dots{
     display: none;
@@ -389,6 +390,7 @@ p.common-pr{
 }
 .cr-pdt-grid .pdt-wrp {
     width: 50%;
+    margin-bottom: 15px;
 }
 .list-view .list-img-wrapper {
     margin: unset;
@@ -716,3 +718,13 @@ h1.st-out {
 
 /* Responsive css ends here////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
+.owl-carousel .owl-stage-outer {
+    padding: 10px;
+    margin-left: -15px;
+}
+.owl-carousel {
+
+    width: 101.7%!important;
+    padding: 10px;
+
+}
