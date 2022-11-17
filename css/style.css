@@ -21,6 +21,10 @@ p,h1,h2,h3,h4,h5,h6,a{
     padding: 15px 80px;
     padding-bottom: 40px;
 }
+.site-wrapper-ut{
+    padding: 20px 80px;
+    /* padding-bottom: 40px; */
+}
 .header{
     padding: 8px 80px;
 }
