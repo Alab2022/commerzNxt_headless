@@ -13,6 +13,7 @@ body{
 }
 p,h1,h2,h3,h4,h5,h6,a{
     margin-bottom: 0 !important;
+    color: #434343;
 }
 .container-fluid {
     padding: 0 !important;   
@@ -210,7 +211,7 @@ a.dropdown-item {
 /* Slider Css Css Starts here//////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .card{
-    padding: 15px;
+    padding: 20px;
     border-radius: 10px !important;
     /* box-shadow: none !important; */
     border: 1px solid #e8e8e8 !important;
@@ -591,7 +592,7 @@ color: #575757;
     font-weight: 300;
 }
 .list{
-    border-radius: 20px !important; 
+    border-radius: 10px !important; 
     border: 0 !important;
     padding: 25px !important;
     box-shadow: rgba(58, 58, 58, 0.1) 0px 4px 12px !important;
@@ -707,6 +708,7 @@ span.cm-light {
     background: #4DD47E;
     border-radius: 10px;
     color: #fff;
+    width: fit-content;
     font-size: 12px;
     border: 1px solid #46BC71;
 }
@@ -776,6 +778,10 @@ label {
 .login-custom a.btn.btn-primary {
     color: #fff !important;
     border: none;
+}
+input{
+    font-size: 14px !important;
+    box-shadow: none !important;
 }
 .input-icon {
     position: absolute;
@@ -989,6 +995,188 @@ button.btn.btn-danger {
 .inner-page-pd{
     padding-top: 25px !important;
 }
+.profile-img {
+    width: 60px;
+    height: 60px;
+}
+.profile-img img {
+    width: 100%;
+    border-radius: 50%;
+}
 
+.prof-details p {
+    font-size: 14px;
+    opacity: 80%;
+}
+.prof-details h5 {
+    font-size: 16px;
+    margin-top: 2px;
+    font-weight: 500;
+}
+.leftbar-wrapper h4 {
+    font-size: 16px;
+    margin-bottom: 10px !important;
+}
+.leftbar-wrapper i {
+    margin-right: 5px;
+    font-size: 20px;
+    color: #f05a28;
+}
+.leftbar-wrapper ul {
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+.leftbar-wrapper ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #707070;
+}
+.page-header .right p {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.page-header button.btn.btn-light {
+    color: #f05a28;
+    border: 1px solid #ddd !important; 
+}
+.page-header{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.inner-page-content{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.inner-page-content:last-child{
+    border-bottom: none;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+.list-image-wrapper {
+    width: 100%;
+    height: 140px;
+    text-align: center;
+}
+.list-image-wrapper img {
+    max-width: 100%;
+    border-radius: 10px;
+    max-height: 100%;
+}
+.inner-page-content {
+    position: relative;
+}
+.inner-page-content .detail-btn-wrp button.btn.btn-light {
+    margin-right: 0;
+    color: #f05a28;
+}
+.usables a {
+    color: #1c67a8 !important;
+    margin-right: 10px;
+    font-size: 14px;
+    background: #edf3fa;
+    padding: 5px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.checklist {
+    position: absolute;
+}
+.inner-page-content .list-content h5 {
+    font-size: 20px;
+}
+.inner-page-content .list-content .price h1 {
+    font-size: 20px;
+}
 
+/* Wishlist css ends here ////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
+/* Cart css starts here ////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+tbody, td, tfoot, th, thead, tr {
+    padding: 10px !important;
+    vertical-align:middle;
+    font-size: 14px;
+}
+thead tr th{
+    font-weight: 500 !important;
+    color: #434343 !important;
+}
+tbody tr td{
+    font-weight: 400 !important;
+    color: #434343 !important;
+    font-size: 13px;
+}
+.table-img {
+    width: 50px;
+    height: 50px;
+}
+.table-img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.btn-light{
+    border: 1px solid #ddd !important;
+}
+.table.no-bo tr td {
+    border: 0px;
+}
+td.tp-bo {
+    border-top: 1px solid #7a7a7a !IMPORTANT;
+}
+.success-note{
+    color: #4DD47E !important;
+    font-size: 13px;
+}
+ul.pagination .page-item {
+    margin-right: 10px;
+    
+}
+ul.pagination .page-item:last-child {
+    margin-right: 0px;
+}
+ul.pagination .page-item a.page-link {
+    border-radius: 5px;
+    padding: 5px 15px;
+    box-shadow: none;
+    font-size: 14px !important;
+}
+.active>.page-link, .page-link.active {
+    color: #fff !important;
+    background-color: #f05a28 !important;
+    border: none !important;
+}
+/* Cart css ends here ////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* profile css ends here ////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.profile-img {
+    position: relative;
+}
+.c-img {
+    width: 25px;
+    height: 25px;
+    background: #1c67a8;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    right: -7px;
+    cursor: pointer;
+}
+.check-field .form-check {
+    display: flex;
+    align-items: flex-start;
+}
+a.profile-ch {
+    font-size: 12px;
+    color: #1c67a8 !important;
+    margin-left: 10px;
+}
+/* profile css ends here ////////////////////////////////////////////////////////////////////////////////////////////////////////*/
