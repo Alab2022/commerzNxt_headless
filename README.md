@@ -1,1 +1,0 @@
-# commerzNxt_headless

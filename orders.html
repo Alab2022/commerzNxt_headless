@@ -138,112 +138,206 @@
                     <ol class="breadcrumb mb-4">
                         <li class="breadcrumb-item">Home</li>
                         <li class="breadcrumb-item" aria-current="page">My Account</li>
-                        <li class="breadcrumb-item active" aria-current="page">Profile</li>
+                        <li class="breadcrumb-item active" aria-current="page">My Orders</li>
                     </ol>
                 </nav>
 
                 <div class="row">
                     <div class="col-lg-3 col-md-12 col-sm-12 ">
-                        <div class="card sticky">
-                            <div class="profile-wrapper d-flex align-center">
-                                <div class="profile-img me-2">
-                                    <img src="img/profile.png" alt="">
-                                    <div class="c-img"><i class="bi bi-camera-fill"></i></div>
-                                </div>
-
-                                <div class="prof-details">
-                                    <p>Hello</p>
-                                    <h5>Alaghappan Veerappan</h5>
-                                </div>
+                        <div class="card ">
+                            <div class="page-header">
+                                <h5>Filters</h5>
                                 
                             </div>
+                            <div class="option-wraper">
+                                <ul>
+                                    <li><input class="form-check-input mt-0 me-2" type="checkbox" value="" aria-label="Checkbox for following text input">On the way</li>
+                                    <li><input class="form-check-input mt-0 me-2" type="checkbox" value="" aria-label="Checkbox for following text input">Delivered</li>
+                                    <li><input class="form-check-input mt-0 me-2" type="checkbox" value="" aria-label="Checkbox for following text input">Cancelled</li>
+                                    <li><input class="form-check-input mt-0 me-2" type="checkbox" value="" aria-label="Checkbox for following text input">Returned</li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="capsules">
+                                <div class="bg-gray me-1">
+                                    <p>On the way <span><i class="bi bi-x-lg ms-2"></i></span></p>
+                                </div>
+                                <div class="bg-gray me-1">
+                                    <p>Delivered <span><i class="bi bi-x-lg ms-2"></i></span></p>
+                                </div>
+                                <div class="bg-gray me-1">
+                                    <p>Returned <span><i class="bi bi-x-lg ms-2"></i></span></p>
+                                </div>
+                                <div class="bg-gray me-1">
+                                    <p>Cancelled <span><i class="bi bi-x-lg ms-2"></i></span></p>
+                                </div>
+                            </div>
+                        
                         </div>
 
-                        <div class="card mt-4">
-                            <div class="leftbar-wrapper">
-                                <h4> <span><i class="bi bi-basket3"></i></span> <a href="orders.html">My Orders</a>
-                                </h4>
-                                <h4> <span><i class="bi bi-person"></i></span> <a href="#"> Account Settings</a></h4>
-                                <ul>
-                                    <li><a href="profile.html">Profile Information</a></li>
-                                    <li><a href="address.html">Manage Addresses</a></li>
-                                    <li><a href="reviews.html">My reviews</a></li>
-                                </ul>
-                                <h4> <span><i class="bi bi-power"></i></span> <a href="login.html">Logout</a></h4>
-                            </div>
-                        </div>
+                       
                     </div>
 
                     <div class="col-lg-9 col-md-12 col-sm-12 ">
                         <div class="card">
                             <div class="inner-page-wrapper">
                                 <div class="page-header d-flex justify-content-between align-center">
-                                    <h5>My Profile</h5>
-                                    <div class="right d-flex align-center">
-                                        
-                                        <button type="button" class="btn btn-secondary"><i class="bi bi-pencil-square me-2"></i>Edit</button>
+                                    <h5>My Orders</h5>
+                                    <div class="hed-search">
+                                        <div class="form-group mb-2">                                            
+                                            <input type="text" class="form-control" id="usr" placeholder="Search your orders here">
+                                            <span><i class="bi bi-search"></i></span>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="inner-page-content">
-                                    <div class="form-wrapper">
-                                        <h6 class="mb-2">Personal Information</h6>
-                                        <div class="row mb-4">
-                                            <div class="col-lg-4">                                                
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="First Name">
-                                                </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-lg-2 col-md-12 col-sm-12">
+                                            <div class="list-image-wrapper">
+                                                <img src="img/list3.png" alt="">
                                             </div>
-                                            <div class="col-lg-4">                                               
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Last Name">
+                                        </div>
+                                        <div class="col-lg-10 col-md-12 col-sm-12">
+                                            <div class="list-content">
+                                                <div class="order-details mb-3">                                                    
+                                                        <p class="text-danger"> <span><i class="bi bi-circle-fill"></i></span> Cancelled on 10thFeb, 2022</p>
+                                                </div>
+                                                <h5>Ambrane Micro USB Cable 3 A 1 m ACM-1 1m </h5>
+                                                
+                                                
+                                                <div class="price d-flex mt-1 mb-2">
+                                                    <h1 class="me-2">€ 345.66</h1>
+                                                    <h1 class="st-out"><strike>€ 570</strike></h1>
+                                                </div>
+                                                
+                                                <div class="wi mt-3">
+                                                    
+                                                    <button type="button" class="btn btn-primary "> <span><i class="bi bi-eye-fill me-1"></i></span> View Order</button>
+                                                    
                                                 </div>
                                             </div>
                                         </div>
-                                        <h6 class="mb-2">Your Gender</h6>
-                                        <div class="check-field d-flex mb-3">
-                                            
-                                            <div class="form-check me-3">
-                                                <input class="form-check-input me-2" type="checkbox" value="" id="flexCheckDefault">
-                                                <label class="form-check-label" for="flexCheckDefault">
-                                                  Male
-                                                </label>
-                                              </div>
-                                              <div class="form-check">
-                                                <input class="form-check-input me-2" type="checkbox" value="" id="flexCheckChecked" checked>
-                                                <label class="form-check-label" for="flexCheckChecked">
-                                                  Female
-                                                </label>
-                                              </div>
-                                        </div>
-                                        <h6 class="mb-2">Email Address <span><a class="profile-ch" href="#">Change Password</a></span></h6>
-                                        <div class="row mb-4">
-                                            <div class="col-lg-4">                                                
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Email">
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <h6 class="mb-2">Mobile Number</h6>
-                                        <div class="row ">
-                                            <div class="col-lg-4">                                                
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" placeholder="Enter number">
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
+                                       
+
                                     </div>
                                 </div>
-                                <div class="content-footer text-end">
-                                    <button type="button" class="btn btn-light me-1">Reset</button>
-                                    <button type="button" class="btn btn-primary">Save</button>
-                                </div>                               
-                               
+                                <div class="inner-page-content">
+                                    
+                                    <div class="row">
+                                        <div class="col-lg-2 col-md-12 col-sm-12">
+                                            <div class="list-image-wrapper">
+                                                <img src="img/list2.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-10 col-md-12 col-sm-12">
+                                            <div class="list-content">
+                                                <div class="order-details mb-3">                                                    
+                                                        <p class="text-success"> <span><i class="bi bi-circle-fill"></i></span> Delivered on 10thFeb, 2022</p>
+                                                </div>
+                                                <h5>Ambrane Micro USB Cable 3 A 1 m ACM-1 1m </h5>
+                                                
+                                                
+                                                <div class="price d-flex mt-1 mb-2">
+                                                    <h1 class="me-2">€ 345.66</h1>
+                                                    <h1 class="st-out"><strike>€ 570</strike></h1>
+                                                </div>
+                                                
+                                                <div class="wi mt-3">
+                                                    <button type="button" class="btn btn-secondary me-1"> <span><i class="bi bi-file-pdf-fill me-1"></i></span> Download Invoice</button>
+                                                    <button type="button" class="btn btn-primary "> <span><i class="bi bi-eye-fill me-1"></i></span> View Order</button>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+
+                                    </div>
+                                </div>
+                                <div class="inner-page-content">
+                                    
+                                    <div class="row">
+                                        <div class="col-lg-2 col-md-12 col-sm-12">
+                                            <div class="list-image-wrapper">
+                                                <img src="img/list4.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-10 col-md-12 col-sm-12">
+                                            <div class="list-content">
+                                                <div class="order-details mb-3">                                                    
+                                                        <p class="text-info"> <span><i class="bi bi-circle-fill"></i></span> Out for Delivery </p>
+                                                </div>
+                                                <h5>Ambrane Micro USB Cable 3 A 1 m ACM-1 1m </h5>
+                                                
+                                                
+                                                <div class="price d-flex mt-1 mb-2">
+                                                    <h1 class="me-2">€ 345.66</h1>
+                                                    <h1 class="st-out"><strike>€ 570</strike></h1>
+                                                </div>
+                                                
+                                                <div class="wi mt-3">
+                                                    <button type="button" class="btn btn-secondary me-1"> <span><i class="bi bi-file-pdf-fill me-1"></i></span> Download Invoice</button>
+                                                    <button type="button" class="btn btn-primary "> <span><i class="bi bi-eye-fill me-1"></i></span> View Order</button>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+
+                                    </div>
+                                </div>
+                                <div class="inner-page-content">
+                                    
+                                    <div class="row">
+                                        <div class="col-lg-2 col-md-12 col-sm-12">
+                                            <div class="list-image-wrapper">
+                                                <img src="img/list3.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-10 col-md-12 col-sm-12">
+                                            <div class="list-content">
+                                                <div class="order-details mb-3">                                                    
+                                                        <p class="text-warning"> <span><i class="bi bi-circle-fill"></i></span> Returned on 10thFeb, 2022</p>
+                                                </div>
+                                                <h5>Ambrane Micro USB Cable 3 A 1 m ACM-1 1m </h5>
+                                                
+                                                
+                                                <div class="price d-flex mt-1 mb-2">
+                                                    <h1 class="me-2">€ 345.66</h1>
+                                                    <h1 class="st-out"><strike>€ 570</strike></h1>
+                                                </div>
+                                                
+                                                <div class="wi mt-3">
+                                                    
+                                                    <button type="button" class="btn btn-primary "> <span><i class="bi bi-eye-fill me-1"></i></span> View Order</button>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+
+                                    </div>
+                                </div>
+                                
                             </div>
 
                         </div>
-                        
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-between align-center mt-3">
+                                <p>showing 10 of 250</p>
+                                <div class="d-flex">
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">Next</a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
