@@ -1606,22 +1606,38 @@ th{
 .contact-details h1 {
     color: rgb(49, 49, 49);
     font-size: 28px;
-    margin-bottom: 20px !important;
-}
-.contact-details p {
-    color: rgb(61, 61, 61);
-    font-weight: 300;
-    margin-bottom: 5px !IMPORTANT;
+    margin-bottom: 5px !important;
 }
 .contact-details p {
     display: flex;
     flex-direction: column;
-    width: 33%;
     color: #f05a28;
     font-size: 14px;
-    justify-content: space-between;
+    justify-content: space-between; 
+    color: rgb(61, 61, 61);
+    font-weight: 300;
 
-
-    
+}
+.contact-wrapper {
+    max-width: 850px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+}
+.co-img {
+    width: 45px;
+    height: 45px;
+    background: #1c67a8;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    margin-right: 10px;
+}
+.co-details a {
+    font-size: 14px;
+    color: #1c67a8 !important;
 }
 /* Contact styles Css ends here  ///////////////////////////////////////////////////////////////////////// */
