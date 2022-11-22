@@ -218,10 +218,10 @@ ul.dropdown-menu {
 
 .card{
     padding: 20px;
-    border-radius: 10px !important;
+    border-radius: 7px !important;
     /* box-shadow: none !important; */
-    border: 1px solid #e8e8e8 !important;
-    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    border: 1px solid #efefef !important;
+    box-shadow: rgb(170 170 170 / 20%) 0px 2px 8px 0px;
 }
 .owl-carousel .owl-stage-outer{
     overflow: unset;
@@ -711,12 +711,12 @@ span.cm-light {
 }
 .status-success {
     padding: 5px 10px;
-    background: #4DD47E;
+    background: #45ce61;
     border-radius: 10px;
     color: #fff;
     width: fit-content;
     font-size: 12px;
-    border: 1px solid #46BC71;
+    border: 1px solid #45ce61;
 }
 .price h1 {
     color: #303030;
@@ -805,6 +805,9 @@ input{
     box-shadow: none !important;
     outline: none;
     padding: 10px;
+}
+input{
+    font-size: 13px !important;
 }
 .createacount{
     width: 50%;
@@ -1108,6 +1111,14 @@ tbody, td, tfoot, th, thead, tr {
     vertical-align:middle;
     font-size: 14px;
 }
+table.table.table-striped.cart td{
+    border-bottom: 0;
+    border-right: 0;
+}
+table.table.table-striped.cart th{
+    border-bottom: 0;
+    border-right: 0;
+}
 thead tr th{
     font-weight: 500 !important;
     color: #434343 !important;
@@ -1135,7 +1146,7 @@ td.tp-bo {
     border-top: 1px solid #7a7a7a !IMPORTANT;
 }
 .success-note{
-    color: #4DD47E !important;
+    color: rgb(20 197 85) !important;
     font-size: 13px;
 }
 ul.pagination .page-item {
@@ -1259,12 +1270,12 @@ a.btn.btn-primary{
     outline: none;
 border: none;
 }
-.form-wrapper textarea {
+ textarea {
     border: 1px solid #ced4da;
     border-radius: 0.375rem;
     outline: none;
     padding: 10px;
-    font-size: 14px;
+    font-size: 13px !important;
     width: 100%;
     max-height: 80px;
     min-height: 100%;
@@ -1414,3 +1425,203 @@ button.accordion-button{
     padding-top: 15px;
 }
 /* checkout Css ends here  //////////////////////////////////////////////////////////////////////////////*/
+
+/* track Css starts here  //////////////////////////////////////////////////////////////////////////////*/
+
+.track-or-img img {
+    width: auto;
+    height: 100%;
+}
+.track-or-img {
+    height: 140px;
+    text-align: center;
+}
+.order-status-wrapper .list-content h5 {
+    font-size: 18px;
+    margin-bottom: 15px !important;
+}
+.order-status-wrapper .list-content h1 {
+    font-size: 20px;
+}
+
+
+.step-wizard-list{
+
+    color: #333;
+    list-style-type: none;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px 10px;
+    position: relative;
+    z-index: 10;
+}
+
+.step-wizard-item{
+    padding: 0 20px;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive:1;
+    flex-grow: 1;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-width: 170px;
+    position: relative;
+}
+.step-wizard-item + .step-wizard-item:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 19px;
+    background: #45ce61;
+    width: 100%;
+    height: 2px;
+    transform: translateX(-50%);
+    z-index: -10;
+}
+.progress-count{
+    height: 40px;
+    width:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: 600;
+    margin: 0 auto;
+    position: relative;
+    z-index:10;
+    color: transparent;
+}
+.progress-count:after{
+    content: "";
+    height: 40px;
+    width: 40px;
+    background: #45ce61;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: -10;
+}
+.progress-count:before{
+    content: "";
+    height: 10px;
+    width: 20px;
+    border-left: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -60%) rotate(-45deg);
+    transform-origin: center center;
+}
+.progress-label{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.current-item .progress-count:before,
+.current-item ~ .step-wizard-item .progress-count:before{
+    display: none;
+}
+.current-item ~ .step-wizard-item .progress-count:after{
+    height:10px;
+    width:10px;
+}
+.current-item ~ .step-wizard-item .progress-label{
+    opacity: 0.5;
+}
+.current-item .progress-count:after{
+    background: #fff;
+    border: 2px solid #45ce61;
+}
+.current-item .progress-count{
+    color: #45ce61;
+}
+
+p.tr-ship {
+    font-size: 10px;
+    color: #aaaaaa;
+    font-weight: 500;
+}
+/* track Css ends here  //////////////////////////////////////////////////////////////////////////////*/
+
+/* compare styles Css starts here  ///////////////////////////////////////////////////////////////////////// */
+
+.text-custom-truncate{
+    display: -webkit-box !important;
+    max-width: 230px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden
+}
+.table thead tr th{
+    background-color: white;
+    z-index: 10
+}
+
+table .table{
+    text-align: left;
+    position: relative;
+    border-collapse: collapse
+}
+th{
+    background: white;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4)
+}
+.table-responsive{
+    overflow-x: inherit !important
+}
+
+.prod-img-wrap img {
+    width: 48%;
+}
+/* .simple-head th div{
+    border-bottom: 1px solid #000;
+} */
+.table td.base-item,  .table td, .table th{
+    border-right:1px solid #dee2e6;
+}
+.comp_price_holder {
+    border-bottom: 1px solid #dee2e6;
+    padding: 12px 0px;
+}
+.simple-head th{
+    border-bottom-width: 0px!important;
+}
+
+/* compare styles Css ends here  ///////////////////////////////////////////////////////////////////////// */
+
+/* Contact styles Css starts here  ///////////////////////////////////////////////////////////////////////// */
+
+/* .contact-details{
+    padding: 30px;
+    border-radius: 10px;
+    height: 100%;
+} */
+.contact-details h1 {
+    color: rgb(49, 49, 49);
+    font-size: 28px;
+    margin-bottom: 20px !important;
+}
+.contact-details p {
+    color: rgb(61, 61, 61);
+    font-weight: 300;
+    margin-bottom: 5px !IMPORTANT;
+}
+.contact-details p {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    color: #f05a28;
+    font-size: 14px;
+    justify-content: space-between;
+
+
+    
+}
+/* Contact styles Css ends here  ///////////////////////////////////////////////////////////////////////// */
