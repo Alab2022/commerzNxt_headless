@@ -145,7 +145,7 @@
                 <div class="row">
                     <div class="col-lg-9 col-md-12 col-sm-12 ">
 
-                        <div class="card">
+                        <div class="card cart">
                             <div class="page-header d-flex justify-content-between align-center">
                                 <h5>My Cart</h5>
                                 <div class="right d-flex align-center">
@@ -155,135 +155,137 @@
                                             class="bi bi-trash-fill"></i></button>
                                 </div>
                             </div>
-                            <table class="table table-striped cart">
-                                <thead>
-                                    <tr>
-                                        <th>#</th>
-                                        <th>Product Image</th>
-                                        <th>Product Name</th>
-                                        <th>Price</th>
-                                        <th>Quantity</th>
-                                        <th>Status</th>
-                                        <th>Actions</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><input class="form-check-input mt-0 me-2" type="checkbox" value=""
-                                                aria-label="Checkbox for following text input"></td>
-                                        <td>
-                                            <div class="table-img">
-                                                <img src="img/list2.png" alt="">
-                                            </div>
-                                        </td>
-                                        <td>Full Sleeve Solid Men </td>
-                                        <td>€2388</td>
-                                        <td>2</td>
-                                        <td>
-                                            <div class="status-success">
-                                                In Stock
-                                            </div>
-                                        </td>
-                                        <td><button type="button" class="btn btn-light"><i
-                                                    class="bi bi-heart"></i></button></td>
-                                    </tr>
-                                    <tr>
-                                        <td><input class="form-check-input mt-0 me-2" type="checkbox" value=""
-                                                aria-label="Checkbox for following text input"></td>
-                                        <td>
-                                            <div class="table-img">
-                                                <img src="img/list2.png" alt="">
-                                            </div>
-                                        </td>
-                                        <td>Full Sleeve Solid Men </td>
-                                        <td>€2388</td>
-                                        <td>2</td>
-                                        <td>
-                                            <div class="status-success">
-                                                In Stock
-                                            </div>
-                                        </td>
-                                        <td><button type="button" class="btn btn-light"><i
-                                                    class="bi bi-heart"></i></button></td>
-                                    </tr>
-                                    <tr>
-                                        <td><input class="form-check-input mt-0 me-2" type="checkbox" value=""
-                                                aria-label="Checkbox for following text input"></td>
-                                        <td>
-                                            <div class="table-img">
-                                                <img src="img/list2.png" alt="">
-                                            </div>
-                                        </td>
-                                        <td>Full Sleeve Solid Men </td>
-                                        <td>€2388</td>
-                                        <td>2</td>
-                                        <td>
-                                            <div class="status-success">
-                                                In Stock
-                                            </div>
-                                        </td>
-                                        <td><button type="button" class="btn btn-light"><i
-                                                    class="bi bi-heart"></i></button></td>
-                                    </tr>
-                                    <tr>
-                                        <td><input class="form-check-input mt-0 me-2" type="checkbox" value=""
-                                                aria-label="Checkbox for following text input"></td>
-                                        <td>
-                                            <div class="table-img">
-                                                <img src="img/list2.png" alt="">
-                                            </div>
-                                        </td>
-                                        <td>Full Sleeve Solid Men </td>
-                                        <td>€2388</td>
-                                        <td>2</td>
-                                        <td>
-                                            <div class="status-success">
-                                                In Stock
-                                            </div>
-                                        </td>
-                                        <td><button type="button" class="btn btn-light"><i
-                                                    class="bi bi-heart"></i></button></td>
-                                    </tr>
-                                    <tr>
-                                        <td><input class="form-check-input mt-0 me-2" type="checkbox" value=""
-                                                aria-label="Checkbox for following text input"></td>
-                                        <td>
-                                            <div class="table-img">
-                                                <img src="img/list2.png" alt="">
-                                            </div>
-                                        </td>
-                                        <td>Full Sleeve Solid Men </td>
-                                        <td>€2388</td>
-                                        <td>2</td>
-                                        <td>
-                                            <div class="status-success">
-                                                In Stock
-                                            </div>
-                                        </td>
-                                        <td><button type="button" class="btn btn-light"><i
-                                                    class="bi bi-heart"></i></button></td>
-                                    </tr>
-                                    <tr>
-                                        <td><input class="form-check-input mt-0 me-2" type="checkbox" value=""
-                                                aria-label="Checkbox for following text input"></td>
-                                        <td>
-                                            <div class="table-img">
-                                                <img src="img/list2.png" alt="">
-                                            </div>
-                                        </td>
-                                        <td>Full Sleeve Solid Men </td>
-                                        <td>€2388</td>
-                                        <td>2</td>
-                                        <td>
-                                            <div class="status-success">
-                                                In Stock
-                                            </div>
-                                        </td>
-                                        <td><button type="button" class="btn btn-light"><i
-                                                    class="bi bi-heart"></i></button></td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                            <div class="table-scroll">
+                                <table class="table table-striped cart">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Product Image</th>
+                                            <th>Product Name</th>
+                                            <th>Price</th>
+                                            <th>Quantity</th>
+                                            <th>Status</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><input class="form-check-input mt-0 me-2" type="checkbox" value=""
+                                                    aria-label="Checkbox for following text input"></td>
+                                            <td>
+                                                <div class="table-img">
+                                                    <img src="img/list2.png" alt="">
+                                                </div>
+                                            </td>
+                                            <td>Full Sleeve Solid Men </td>
+                                            <td>€2388</td>
+                                            <td>2</td>
+                                            <td>
+                                                <div class="status-success">
+                                                    In Stock
+                                                </div>
+                                            </td>
+                                            <td><button type="button" class="btn btn-light"><i
+                                                        class="bi bi-heart"></i></button></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input class="form-check-input mt-0 me-2" type="checkbox" value=""
+                                                    aria-label="Checkbox for following text input"></td>
+                                            <td>
+                                                <div class="table-img">
+                                                    <img src="img/list2.png" alt="">
+                                                </div>
+                                            </td>
+                                            <td>Full Sleeve Solid Men </td>
+                                            <td>€2388</td>
+                                            <td>2</td>
+                                            <td>
+                                                <div class="status-success">
+                                                    In Stock
+                                                </div>
+                                            </td>
+                                            <td><button type="button" class="btn btn-light"><i
+                                                        class="bi bi-heart"></i></button></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input class="form-check-input mt-0 me-2" type="checkbox" value=""
+                                                    aria-label="Checkbox for following text input"></td>
+                                            <td>
+                                                <div class="table-img">
+                                                    <img src="img/list2.png" alt="">
+                                                </div>
+                                            </td>
+                                            <td>Full Sleeve Solid Men </td>
+                                            <td>€2388</td>
+                                            <td>2</td>
+                                            <td>
+                                                <div class="status-success">
+                                                    In Stock
+                                                </div>
+                                            </td>
+                                            <td><button type="button" class="btn btn-light"><i
+                                                        class="bi bi-heart"></i></button></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input class="form-check-input mt-0 me-2" type="checkbox" value=""
+                                                    aria-label="Checkbox for following text input"></td>
+                                            <td>
+                                                <div class="table-img">
+                                                    <img src="img/list2.png" alt="">
+                                                </div>
+                                            </td>
+                                            <td>Full Sleeve Solid Men </td>
+                                            <td>€2388</td>
+                                            <td>2</td>
+                                            <td>
+                                                <div class="status-success">
+                                                    In Stock
+                                                </div>
+                                            </td>
+                                            <td><button type="button" class="btn btn-light"><i
+                                                        class="bi bi-heart"></i></button></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input class="form-check-input mt-0 me-2" type="checkbox" value=""
+                                                    aria-label="Checkbox for following text input"></td>
+                                            <td>
+                                                <div class="table-img">
+                                                    <img src="img/list2.png" alt="">
+                                                </div>
+                                            </td>
+                                            <td>Full Sleeve Solid Men </td>
+                                            <td>€2388</td>
+                                            <td>2</td>
+                                            <td>
+                                                <div class="status-success">
+                                                    In Stock
+                                                </div>
+                                            </td>
+                                            <td><button type="button" class="btn btn-light"><i
+                                                        class="bi bi-heart"></i></button></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input class="form-check-input mt-0 me-2" type="checkbox" value=""
+                                                    aria-label="Checkbox for following text input"></td>
+                                            <td>
+                                                <div class="table-img">
+                                                    <img src="img/list2.png" alt="">
+                                                </div>
+                                            </td>
+                                            <td>Full Sleeve Solid Men </td>
+                                            <td>€2388</td>
+                                            <td>2</td>
+                                            <td>
+                                                <div class="status-success">
+                                                    In Stock
+                                                </div>
+                                            </td>
+                                            <td><button type="button" class="btn btn-light"><i
+                                                        class="bi bi-heart"></i></button></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                             <div class="content-footer d-flex justify-content-between mt-1">
                                 <div class="left">
                                     <button type="button" class="btn btn-light"> <span><i
