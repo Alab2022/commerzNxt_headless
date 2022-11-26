@@ -1646,6 +1646,49 @@ th{
 }
 /* Contact styles Css ends here  /////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
+/* Blogs css */
+
+.blogs .ab-content h4 {
+    margin-bottom: 10px !IMPORTANT;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #436dc3;
+}
+.blog-detail .ab-content h4 {
+    color: #436dc3;
+}
+.blogs .ab-content p {
+    font-size: 13px;
+    color: rgb(61, 61, 61);
+}
+.blog-img {
+    width: 140px;
+    margin: auto;
+}
+.blogs .card{
+    margin-bottom: 1.5rem;
+}
+.blg-details p {
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
+    opacity: 70%;
+}
+.blog-detail .blg-details p {
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: 20px !IMPORTANT;
+}
+.blog-text ul li {
+    list-style: disc;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.blog-text p{
+    list-style: disc;
+    font-size: 14px;
+}
+
 /* Media query css starts here //////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 @media screen and (min-device-width: 320px) and (max-device-width: 600px) { 
