@@ -264,6 +264,7 @@ ul.dropdown-menu {
 .ratings i.bi {
     color: #DBDBDB;
 }
+
 .wishlist {
     background: #fff;
     width: 30px;
@@ -275,14 +276,28 @@ ul.dropdown-menu {
     border-radius: 50%;
     text-align: center;
     color: #F05A28;
+}
+.compare-hov{
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    padding-top: 4px;
+    font-size: 14px;
+    line-height: 25px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    border-radius: 50%;
+    text-align: center;
+    color: #F05A28;
+}
+.icon-list-wrapper {
     position: absolute;
-    right: 13px;
-    top: 16px;
+    right: 24px;
     display: none;
 }
-.card:hover .wishlist{
+a.card.list:hover .icon-list-wrapper {
     display: block;
 }
+
 h4.inner-heading {
     border-left: 2px solid #F05A28;
     padding-left: 13px;
@@ -1695,6 +1710,10 @@ th{
     .header {
         padding: 15px;
     }
+    ul.navbar-nav {
+        flex-direction: row;
+        justify-content: center;
+    }
     span.nav-sep {
         display: none;
     }
@@ -1729,8 +1748,7 @@ th{
         display: block !important;
         text-align: center;
     }
-    .nav-sec-bottom ul.navbar-nav li a {
-        font-size: 16px;
+    .nav-sec-bottom ul.navbar-nav li a { 
         margin-bottom: 10px !IMPORTANT;
     }
     .site-wrapper {
@@ -1980,6 +1998,7 @@ th{
     .res-fm-mt {
         margin-top: 15px;
     }
+    
 }
 
 @media screen and (min-device-width: 600px) and (max-device-width: 820px) { 
@@ -2032,10 +2051,14 @@ th{
         align-items: flex-start !important;
     }
     .site-wrapper-ut .utilities .wrap {
-        align-items: flex-start !important;
+text-align: center;
+        width: 50% !important;
+        flex-direction: column;
+        justify-content: center;
     }
     .wrap .icon{
         height: 50px;
+        margin-bottom: 10px;
     }
     .banner-section.shop {
         height: 250px;
