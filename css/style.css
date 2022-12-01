@@ -1704,6 +1704,55 @@ th{
     font-size: 14px;
 }
 
+/* View Order css starts here///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+a.btn.btn-light {
+    color: #f05a28 !important;
+    font-size: 14px;
+}
+.order-id p {
+    font-size: 13px;
+    opacity: 60%;
+    margin-bottom: 5px;
+}
+.order-id h5 {
+    font-size: 14px;
+    opacity: 85%;
+}
+.vw p.text-warning {
+    background: #fff9e8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #edb204 !important;
+}
+.table-conc {
+    width: 35%;
+    margin-left: auto;
+    background: #f9f9f9;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.table-conc table.table tbody tr th{
+    border: 0;
+    border-bottom: 1px solid rgb(227, 227, 227);
+    font-weight: 400;
+}
+.remove-bo{
+    border: 0 !important;
+}
+.order-ad-vw h6 {
+    font-size: 16px;
+}
+.order-ad-vw p {
+    font-size: 14px;
+}
+.order-ad-vw p {
+    font-size: 14px;
+    line-height: 18px;
+}
+/* View Order css ends here///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
 /* Media query css starts here //////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 @media screen and (min-device-width: 320px) and (max-device-width: 600px) { 
