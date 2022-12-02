@@ -1711,6 +1711,20 @@ th{
     list-style: disc;
     font-size: 14px;
 }
+.blogs .ab-content a {
+    color: #f05a28 !important;
+    font-size: 14px;
+    font-weight: 500;
+}
+.blg-details p {
+    margin-top: 10px;
+}
+.blg-details {
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+/* Blogs css ends */
 
 /* View Order css starts here///////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
