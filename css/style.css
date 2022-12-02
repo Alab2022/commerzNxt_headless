@@ -59,6 +59,11 @@ button {
 ul{
     list-style: none;
 }
+
+.blogs .ab-content {
+    padding: 20px;
+    padding-top: 0;
+}
 /* Navbar css starts here///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 nav.navbar.navbar-expand-sm {
@@ -1677,11 +1682,14 @@ th{
     color: rgb(61, 61, 61);
 }
 .blog-img {
-    width: 140px;
+    width: 100%;
     margin: auto;
 }
 .blogs .card{
     margin-bottom: 1.5rem;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 10px !important;
 }
 .blg-details p {
     font-size: 12px;
